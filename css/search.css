@@ -1,0 +1,55 @@
+#search-filter-icon {
+  cursor: pointer;
+}
+.search-header .filter-colum {
+  display: none;
+}
+input:checked + span {
+  color: #bf40bf;
+}
+time {
+  bottom: 10px;
+  left: 29px;
+}
+.card .card-horizontal .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body {
+  min-width: 0;
+}
+
+@media (max-width: 767px) {
+  .card .card-top-image {
+    width: 100%;
+  }
+  .card .card-horizontal .fa-play {
+    right: 48%;
+  }
+  .card .card-horizontal time {
+    left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .card .card-horizontal .card-body .channel-image {
+    display: block;
+    margin-top: 10px;
+  }
+  .card .card-horizontal .card-body .channel-image > img {
+    margin-right: 0px !important;
+  }
+  /*هذه الكود انا من كتبته ولكنه لم يعمل لم اعرف السبب*/
+  .card .card-horizontal .img-square-wrapper .for-time > time {
+    left: unset;
+    right: 50px;
+    bottom: 40px;
+  }
+  /*هذا هو الكود الذي كتبته */
+
+  .card .card-horizontal .card-body h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
